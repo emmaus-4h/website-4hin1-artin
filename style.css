@@ -39,7 +39,7 @@ div {                             /* geldt voor div */
 /* Indeling en opmaak voor alle pagina's */
 
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
+  width: 80%;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 10 pixels marge,
                                      links en rechts marge gelijk verdeeld (gecentreerd) */
 }
@@ -129,6 +129,22 @@ nav li a.active {
 .item-tekst {
   float: right;
   width: 450px;
+}
+
+.containerAlpha {
+  border:6px azure;
+  width:550px;
+  margin:auto;
+}
+.textAlpha {
+   text-align:center;
+
+}
+
+.plaatjeAlpha {
+  margin: 10px;
+  width:250px;
+  height:180px;
 }
 
 /************************* SUBPAGINA *************************/
