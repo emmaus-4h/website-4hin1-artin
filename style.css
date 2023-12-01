@@ -6,7 +6,7 @@
    let op 1: dit kan de layout soms kan wijzigen 
    let op 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
 /*  * {border: 1px dotted black;}   */
-  
+
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
    letop: laat 1 sterretje voor { staan als je commentaar weghaalt */
@@ -133,7 +133,7 @@ nav li a.active {
 
 .containerAlpha {
   border-width:3px; border-style:solid; border-color:#FF0000;
-  
+
 }
 .textAlpha {
    text-align:center;
@@ -164,25 +164,60 @@ nav li a.active {
   background-color: white;
 }
 
-.m2 {
-position:relative; 
-  top:150px; left:0px; 
-  margin-left:0px; 
-  margin-right:30px;
+.panzer1 {
+  float:right;
+}
+.panzer2 {
+
+}
+.tiger  {
+  background-color:gold;
+}
+.maya
+{
+  color:indianred;
+}
+.maintext {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
 }
 
-.m3 {
-  position:relative; 
-  top:320px; left:100px; 
-  margin-left:180px; 
-  margin-right:0px;
+img {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+img.panzer1, img.img.panzer1 {
+  float: right;
+  margin: 10px;
+}panzer5, img.panzer6, img.maus {
+  float: right;
+  margin: 10px;
+}
+img.panzer2, img.panzer4 {
+  float: left;
+  margin: 10px;
+}
+.panzer5 {
+  float: right;
+}
+.jotaro {
+  clear: right;
 }
 
-.m4 {
-  position:relative; 
-  top:300px; left:90px; 
-  margin-left:180px; 
-  margin-right:0px;
+
+.pantzer {
+  float:right;
+  width:100px;
+}
+
+.pantzer-tekst {
+  float:left;
+  width:300px;
+}
+.pantzer-container {
+  border:2px solid grey;
 }
 
 /************************* SUBPAGINA *************************/
