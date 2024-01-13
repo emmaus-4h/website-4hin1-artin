@@ -85,33 +85,7 @@ a:hover {                         /* <a> als je er met de muis op staat */
 
 /* navigatiebalk voor alle pagina's */
 
-nav ul {                        /* <ul> die child is van <nav> */
-  list-style-type: none;
-  margin: auto;
-  padding: 0;
-  background-color: brown;
-  overflow: hidden;
-}
 
-nav ul li {                     /* <li> die child is van <ul> die op zijn beurt child is van <nav> */
-  float: left;
-}
-
-nav li a {
-  display: block;
-  color: gold;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-nav li a:hover {
-  background-color: palevioletred;
-}
-
-nav li a.active {
-  background-color: mediumvioletred;
-}
 
 
 /************************* HOOFDPAGINA *************************/
@@ -220,6 +194,112 @@ img.panzer2, img.panzer4 {
   border:2px solid grey;
 }
 
+body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .tanker-card {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f9f9f9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .tanker-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        .eyecatcher {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .eyecatcher img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+ nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        nav a.active {
+            border-bottom: 2px solid #fff;
+        }
+
+.tanker-card {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.tanker-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
 /************************* SUBPAGINA *************************/
 
 /* Indeling en opmaak voor subpagina */
